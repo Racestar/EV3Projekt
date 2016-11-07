@@ -1,0 +1,9 @@
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\EV3ProjektTest\bin\Debug\EV3ProjektTest.exe.config
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\EV3ProjektTest\bin\Debug\EV3ProjektTest.exe
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\EV3ProjektTest\bin\Debug\EV3ProjektTest.pdb
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\EV3ProjektTest\obj\Debug\EV3ProjektTest.csprojResolveAssemblyReference.cache
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\EV3ProjektTest\obj\Debug\EV3ProjektTest.exe
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\EV3ProjektTest\obj\Debug\EV3ProjektTest.pdb
+C:\Users\User\Documents\GitHub\EV3Projekt\EV3ProjektTest\bin\Debug\EV3ProjektTest.exe.config
+C:\Users\User\Documents\GitHub\EV3Projekt\EV3ProjektTest\obj\Debug\EV3ProjektTest.exe
+C:\Users\User\Documents\GitHub\EV3Projekt\EV3ProjektTest\obj\Debug\EV3ProjektTest.pdb

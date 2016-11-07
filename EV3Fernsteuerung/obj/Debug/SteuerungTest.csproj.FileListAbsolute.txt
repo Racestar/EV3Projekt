@@ -1,0 +1,6 @@
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\SteuerungTest\bin\Debug\SteuerungTest.exe.config
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\SteuerungTest\bin\Debug\SteuerungTest.exe
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\SteuerungTest\bin\Debug\SteuerungTest.pdb
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\SteuerungTest\obj\Debug\SteuerungTest.csprojResolveAssemblyReference.cache
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\SteuerungTest\obj\Debug\SteuerungTest.exe
+C:\Users\User\Visual Studio Projekte\EV3ProjektTest\SteuerungTest\obj\Debug\SteuerungTest.pdb
