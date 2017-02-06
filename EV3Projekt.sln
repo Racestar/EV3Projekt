@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EV3ProjektTest", "EV3ProjektTest\EV3ProjektTest.csproj", "{0DC95719-F72B-44C2-AE5F-999D8433C8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EV3Fernsteuerung", "SteuerungTest\EV3Fernsteuerung.csproj", "{B2911922-CB49-4778-8489-386A48F408E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EV3Fernsteuerung", "EV3Fernsteuerung\EV3Fernsteuerung.csproj", "{B2911922-CB49-4778-8489-386A48F408E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
