@@ -41,7 +41,7 @@ namespace SteuerungTest
                 float GValue;
                 //float DValue;
                 Console.WriteLine("Drücke U zum Verlassen.");
-                //führe Schleife aus, solange bis T gedrückt wird
+                //führe Schleife aus, solange bis U gedrückt wird
                 do
                 {
                     //Sensorwerte lesen
