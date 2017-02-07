@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LEGO_Server.Models;
+using EV3_Server.Models;
 
 
-namespace LEGO_Server.Repository
+namespace EV3_Server.Repository
 {
     public interface IBrickRepository
     {
         void Add(BrickUnit Brick);
-        IEnumerable<BrickUnit> GetAll();
+        IEnumerable<BrickView> GetAll();
         BrickUnit Find(string key);
         void Remove(string key);
         void Update(BrickUnit item);
+        IEnumerable<SensorUnit> GetSensor();
+        SensorUnit FindSensor(string key);
     }
 }

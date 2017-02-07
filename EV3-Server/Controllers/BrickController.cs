@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using LEGO_Server.Models;
-using LEGO_Server.Repository;
+using EV3_Server.Models;
+using EV3_Server.Repository;
 using System.Net;
 
-namespace LEGO_Server.Controllers
+namespace EV3_Server.Controllers
 {
     [Route("api/[controller]/")]
     public class BrickController : Controller
@@ -20,7 +20,7 @@ namespace LEGO_Server.Controllers
             BrickRepository = _repo;
         }
         [HttpGet]
-        public IEnumerable<BrickUnit> GetAll()
+        public IEnumerable<BrickView> GetAll()
         {
             return BrickRepository.GetAll();
         }
@@ -39,12 +39,10 @@ namespace LEGO_Server.Controllers
         [HttpPost]
         public IActionResult Create([FromBody]BrickUnit item)
         {
-            /*
             if (item == null)
             {
                 return BadRequest();
             }
-            */
             BrickRepository.Add(item);
             return CreatedAtRoute("GetBricks", new { Controller = "Brick", id = item.ID }, item);            
         }

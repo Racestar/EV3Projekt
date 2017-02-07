@@ -8,9 +8,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
-using LEGO_Server.Repository;
+using EV3_Server.Repository;
 
-namespace LEGO_Server
+namespace EV3_Server
 {
     public class Startup
     {

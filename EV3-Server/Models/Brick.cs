@@ -1,24 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
+using MonoBrick.EV3;
 
 
-
-namespace LEGO_Server.Models
+namespace EV3_Server.Models
 {
     public class BrickUnit
     {
         public int ComPort { get; set; }
         public string ID { get; set; }
-        public bool IsConnected { get; set; }
+        public Brick<Sensor, Sensor, Sensor, Sensor> EV3 { get; set; }
+        public List<SensorUnit> SensorList { get; set; }
     }
 
-    public class Divice
+    public class BrickView
     {
-        public string Port { get; set; }
+        public int ComPort { get; set; }
+        public string ID { get; set; }
+        public List<SensorUnit> SensorList { get; set; }
     }
-    public class Motor : Divice { }
-
-    public class Sensor : Divice { }
-
-
-
 }
